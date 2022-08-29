@@ -226,7 +226,7 @@ repository.
 
 .. code-block:: console
 
-    $ restic -r backup find test.txt
+    $ restic -r /srv/restic-repo find test.txt
     debug log file restic.log
     debug enabled
     enter password for repository:
